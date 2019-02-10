@@ -1,0 +1,24 @@
+{
+  "name": "demo_app",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "eslint-plugin-react": "^7.11.1",
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "lodash": "^4.17.11",
+    "ngeohash": "^0.6.0",
+    "request": "^2.88.0",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install express --save",
+      "start": "node app.js"
+  },
+  "author": "Laxmipooja",
+  "license": "ISC"
+}

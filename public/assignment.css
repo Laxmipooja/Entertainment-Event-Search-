@@ -1,0 +1,289 @@
+<style>
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+   * {
+    box-sizing: border-box;
+}
+.control-label:after{
+    content:"*";
+    color:red;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#gridimages.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin-left:14%;
+    margin-right:3%;
+}
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 10px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#google2.container{
+    
+    margin-top:-5%;
+    background: white;
+}
+#googlephotoes.container{
+    
+    
+    background: white;
+}
+
+.roundbar{
+    position:relative;
+}
+
+/*
+.roundnumber{
+    position: absolute
+}
+*/
+
+
+
+/*
+#UpcomingEvents{
+    
+    margin-top:-5%;
+    background: white;
+  
+}
+*/
+
+#menu1.container{
+    
+    
+    background: white;
+}
+
+
+dropdown1.form-control{
+    width:100%;
+    
+    
+}
+details.container{
+    
+    background: white;
+}
+
+#Fav10.container{
+    
+    background: white;
+}
+
+#Fav11.container{
+    background: white;
+}
+
+/* Added now */
+.animate-hide {
+ -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    left: 0;
+    position: absolute;
+    margin-left:10%;
+/*
+  line-height:20px;
+  opacity:1;
+  padding:10px;
+  background:white;
+  position: absolute;
+  left: 0;
+*/
+}
+/*.animate-hide {*/
+/*
+ -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 800ms;
+    right: 0;
+    position: absolute;
+    margin-left:10%;
+  line-height:20px;
+  opacity:1;
+  padding:10px;
+  background:white;
+  position: absolute;
+  left: 0;
+}
+*/
+.animate-hide.ng-hide {
+  left: -100%;
+  opacity:0;
+  padding:0 10px;
+}
+/*
+right.animate-hide.ng-hide {
+  left: -100%;
+  opacity:0;
+  padding:0 10px;
+}
+*/
+
+
+
+/*------------------added all new above---------*/
+
+.container{
+    background-color: #f8f8f8;
+    
+}
+#menu3.container{
+    background-color: white;
+}
+#FavoritesFill.container{
+    background-color: white;
+}
+    
+#Fav1.container{
+    background-color: white;
+  
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+#Fav2.container{
+    
+    
+    background-color: white;
+  
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+#Artist.container{
+    margin-top:7%;
+    background-color: white;
+  
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#mobilereview.nav{
+    
+    display:none;
+    
+}
+
+@media (max-width: 500px) {
+ #normal.nav { display: none; }
+ #mobilereview.nav-tabs { display: inline-flex; }
+}
+#ProgressBar1.container{
+    margin-top:4%;
+    background-color: white;
+  
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+#Keyword.ng-invalid.ng-touched{
+    border:1px solid red;
+}
+
+
+.button1{
+    float: left;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+}
+.button2{
+    float: left;
+    padding-left: 20px;
+    padding-right:20px
+    background: white;
+    color: Black;
+    font-size: 17px;
+   
+}
+
+#buttonDetails.button2{
+   border: 1px solid grey  !important;
+    
+    
+    
+}
+
+#star.material-icons{
+    font-size:48px;
+    border: 1px solid grey  !important;
+}
+
+
+.progress-wrapper{
+    position: relative;
+    margin:20px auto;
+    font-size: 40px;
+}
+
+
+
+</style>
